@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <style>
+    .hero-section{
+      overflow: hidden;
+      height: calc(100vh - 56px);
+    }
+  </style>
+</head>
+<body class="bg-black">
+
+  <nav class="navbar bg-success-subtle navbar-expand-lg" data-bs-theme="light">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="#">Arcadala</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col px-0">
+        <div class="card border-0 position-relative hero-section">
+          <img src="https://images.unsplash.com/photo-1793945870608-fa325f7faed5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="" class="card-img">
+          <div class="card-img-overlay text-light  position-absolute top-50">
+            <h4 class="card-title">Welcome to Arcadala</h4>
+            <p class="card-text">We Build Better Worlds</p>
+            <a href="" class="btn btn-outline-light">Show Destinations</a>
+          </div>
+        </div>
+      </div>
+      <div class="col px-0">
+        <div class="card border-0 hero-section">
+          <img src="https://images.unsplash.com/photo-1794937226346-ff5ff24c0d97?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="" class="card-img">
+          <div class="card-img-overlay text-light">
+            <div class="card-title display-4">Travel the world</div>
+            <p class="card-text">Enjoy different cultures</p>
+            <a href="" class="btn btn-info">Start now &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+</body>
+</html>
